@@ -1,0 +1,162 @@
+@import url('menu.css');
+
+html{
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#header{
+	z-index: 90;
+	position: fixed;
+	
+	height: 100px;
+	width: 100%;
+	top: 0px;
+	
+
+	/* background-color: #F5EDBB; */
+	background: #c9c9c9; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2M5YzljOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2JjYzFmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlNWU1ZTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #c9c9c9 0%, #bcc1ff 50%, #e5e5e5 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c9c9c9), color-stop(50%,#bcc1ff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #c9c9c9 0%,#bcc1ff 50%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #c9c9c9 0%,#bcc1ff 50%,#e5e5e5 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #c9c9c9 0%,#bcc1ff 50%,#e5e5e5 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #c9c9c9 0%,#bcc1ff 50%,#e5e5e5 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-8 */
+
+	/* box-shadow: 3px 3px 6px #E2E3E6; */
+	border-bottom: 1px solid black;
+}
+
+	#header h1{
+		float: left;
+		
+		margin: 2%;
+		margin-left: 5%;
+		
+		font-size: 30pt;
+		font-weight: normal;
+	}
+	
+		#header h1 a{
+			color: black;
+			text-decoration: none;
+		}
+	
+	#header img{
+		float: right;
+		margin: 0px 2% 0px 0px;
+		
+		vertical-align: top;
+	}
+	
+	#header .redButton{
+		float: right;
+		margin: 3% 4% 3% 2%;
+		
+		background-color: red;
+		font-weight: bolder;
+		opacity: 0.4;
+	}
+	
+		.redButton a{
+			padding: 10px;
+			
+			cursor: pointer;
+			font-size: 12pt;
+			text-decoration: none;
+			color: white;
+			display: block;
+		}
+		
+		#header .redButton:hover{
+			opacity: 1;
+		}
+	
+#mainFrame{
+	z-index: 50;
+	position: relative;
+	
+	top: 100px;
+	width: 980px;
+	margin: auto !important;
+	
+	box-shadow: 5px 10px 20px gray;
+	border-radius: 8px 8px 8px 8px;
+}
+
+
+	#title{
+		position: relative;
+		
+		margin: 10px 0px 0px;
+		padding: 2%;
+		
+		background-color: #9092C5;
+		color: white;
+		border-radius: 8px 8px 0px 0px;
+	}
+
+
+	#content {
+		position: relative;
+		
+		padding: 2%;
+		padding-bottom: 20px;
+		margin-bottom: 200px;
+		
+		border-radius: 0px 0px 8px 8px;
+		background-color: #E5E5E5;
+		overflow: hidden;
+	}
+
+		#content img{
+			float: left;
+			margin: 10px 10px;
+		}
+		
+		.divider{
+			width: 100%;
+			border-bottom: 1px solid black;
+			margin-bottom: 20px;
+		}
+		
+		.floatingDiv{
+			position: relative;
+			float: left;
+			margin-left: 50px;
+		}
+		
+		.afterFloatingDiv{
+			clear: both;
+		}
+		
+		#contentFrame p{
+			margin: 2%;
+		}
+		
+		#contentFrame ul{
+			margin: 2% 0px;
+		}
+		
+		#contentFrame ul li{
+			margin: 1%;
+			
+			list-style: none;
+		}
+		
+		#contentFrame a{
+			text-decoration: none;
+			color: #5F62AB;
+		}
+		
+		#content h2,#content h3,#content4{
+			font-size: 18pt;
+			margin-bottom: 20px;
+		}
