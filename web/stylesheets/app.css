@@ -1,0 +1,214 @@
+/* line 1, ../sass/settings.scss */
+html {
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+/* line 5, ../sass/settings.scss */
+body {
+  /** To edit this background, follow this link:
+http://svgeneration.com/generate/Dual-Triangles?width=10&color1=222222&color2=262626&
+*/
+  background-color: #222222;
+  background-image: url("images/dual_triangles.svg");
+}
+
+/* line 14, ../sass/settings.scss */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 1, ../sass/intro.scss */
+#mainFrame {
+  z-index: 50;
+  position: relative;
+  top: 100px;
+  width: 100%;
+  color: #ddd;
+}
+/* line 8, ../sass/intro.scss */
+#mainFrame ul {
+  padding: 2% 0px;
+}
+/* line 11, ../sass/intro.scss */
+#mainFrame ul li {
+  padding: 1%;
+  list-style: none;
+}
+/* line 17, ../sass/intro.scss */
+#mainFrame a {
+  text-decoration: none;
+}
+/* line 21, ../sass/intro.scss */
+#mainFrame .title-wrap {
+  position: relative;
+  width: 100%;
+  color: white;
+}
+/* line 26, ../sass/intro.scss */
+#mainFrame .title-wrap .title {
+  width: 80%;
+  padding: 0 10%;
+}
+/* line 34, ../sass/intro.scss */
+#mainFrame .content-wrap {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  font-size: 18pt;
+}
+/* line 40, ../sass/intro.scss */
+#mainFrame .content-wrap .content {
+  width: 80%;
+  padding: 0 10%;
+}
+/* line 45, ../sass/intro.scss */
+#mainFrame .content-wrap img {
+  float: left;
+  margin: 10px 10px;
+}
+/* line 50, ../sass/intro.scss */
+#mainFrame .content-wrap .floatingDiv {
+  position: relative;
+  float: left;
+  margin-left: 50px;
+}
+/* line 56, ../sass/intro.scss */
+#mainFrame .content-wrap .afterFloatingDiv {
+  clear: both;
+}
+
+@media only screen and (max-width: 1100px) {
+  /* line 2, ../sass/media.scss */
+  #header h1 {
+    margin-top: 1%;
+    font-size: 25pt;
+    width: 50%;
+  }
+
+  /* line 8, ../sass/media.scss */
+  #mainFrame {
+    top: 100px;
+    width: 95%;
+    box-shadow: 5px 10px 20px gray;
+  }
+}
+@media only screen and (max-width: 800px) {
+  /* line 17, ../sass/media.scss */
+  #header h1 {
+    font-size: 18pt;
+    width: 40%;
+  }
+  /* line 20, ../sass/media.scss */
+  #header h1 img {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 28, ../sass/media.scss */
+  #menu ul li {
+    width: 16%;
+    margin: 10px 4%;
+  }
+
+  /* line 33, ../sass/media.scss */
+  #menu ul li:first-child {
+    margin-left: 4%;
+  }
+
+  /* line 37, ../sass/media.scss */
+  .floatingDiv {
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  /* line 43, ../sass/media.scss */
+  #header h1 {
+    width: 45%;
+    margin-top: 10px;
+    font-size: 14pt;
+    font-weight: bolder;
+  }
+
+  /* line 51, ../sass/media.scss */
+  #menu {
+    height: 90px;
+  }
+  /* line 54, ../sass/media.scss */
+  #menu ul li {
+    width: 30%;
+    margin: 8px 8%;
+  }
+  /* line 58, ../sass/media.scss */
+  #menu ul li:first-child {
+    margin-left: 8%;
+  }
+}
+/* line 1, ../sass/header.scss */
+#header {
+  z-index: 90;
+  position: fixed;
+  height: 100px;
+  width: 80%;
+  padding: 0px 10%;
+}
+/* line 8, ../sass/header.scss */
+#header h1 {
+  float: left;
+  margin: 2%;
+  margin-left: 5%;
+  font-size: 30pt;
+  font-weight: normal;
+}
+/* line 14, ../sass/header.scss */
+#header h1 a {
+  color: black;
+  text-decoration: none;
+}
+/* line 20, ../sass/header.scss */
+#header img {
+  float: right;
+  margin: 0px 2% 0px 0px;
+  vertical-align: top;
+}
+/* line 27, ../sass/header.scss */
+#header #menu {
+  z-index: 90;
+  width: 100%;
+  height: 50px;
+  font-size: 13pt;
+  font-family: arial;
+}
+/* line 35, ../sass/header.scss */
+#header #menu ul {
+  list-style-type: none;
+}
+/* line 37, ../sass/header.scss */
+#header #menu ul li {
+  position: relative;
+  float: left;
+  width: 11%;
+  margin: 10px 3%;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+/* line 49, ../sass/header.scss */
+#header #menu ul li:first-child {
+  margin-left: 18%;
+}
+/* line 53, ../sass/header.scss */
+#header #menu ul li a {
+  padding: 5px 0px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bolder;
+  display: block;
+  color: black;
+  text-shadow: 1px 1px 3px gray;
+}
+/* line 62, ../sass/header.scss */
+#header #menu ul li:hover {
+  box-shadow: 0px 0px 3px black;
+}

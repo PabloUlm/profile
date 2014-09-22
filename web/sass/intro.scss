@@ -1,0 +1,62 @@
+#mainFrame{
+	z-index: 50;
+	position: relative;
+	top: 100px;
+	width: 100%;
+    color: #ddd;
+
+  ul{
+    padding: 2% 0px;
+
+    li{
+      padding: 1%;
+      list-style: none;
+    }
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .title-wrap{
+    position: relative;
+    width: 100%;
+    color: white;
+
+    .title{
+      width: 80%;
+      padding: 0 10%;
+    }
+  }
+  .title-wrap.odd{
+  }
+
+  .content-wrap {
+    position: relative;
+    width: 100%;
+    min-height: 100px;
+    font-size: 18pt;
+
+    .content{
+      width: 80%;
+      padding: 0 10%;
+    }
+
+    img{
+      float: left;
+      margin: 10px 10px;
+    }
+
+    .floatingDiv{
+      position: relative;
+      float: left;
+      margin-left: 50px;
+    }
+
+    .afterFloatingDiv{
+      clear: both;
+    }
+  }
+  .content-wrap.odd {
+  }
+}

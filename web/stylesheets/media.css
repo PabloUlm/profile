@@ -1,0 +1,66 @@
+@media only screen and (max-width: 1100px) {
+  /* line 2, ../sass/media.scss */
+  #header h1 {
+    margin-top: 1%;
+    font-size: 25pt;
+    width: 50%;
+  }
+
+  /* line 8, ../sass/media.scss */
+  #mainFrame {
+    top: 100px;
+    width: 95%;
+    box-shadow: 5px 10px 20px gray;
+  }
+}
+@media only screen and (max-width: 800px) {
+  /* line 17, ../sass/media.scss */
+  #header h1 {
+    font-size: 18pt;
+    width: 40%;
+  }
+  /* line 20, ../sass/media.scss */
+  #header h1 img {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 28, ../sass/media.scss */
+  #menu ul li {
+    width: 16%;
+    margin: 10px 4%;
+  }
+
+  /* line 33, ../sass/media.scss */
+  #menu ul li:first-child {
+    margin-left: 4%;
+  }
+
+  /* line 37, ../sass/media.scss */
+  .floatingDiv {
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  /* line 43, ../sass/media.scss */
+  #header h1 {
+    width: 45%;
+    margin-top: 10px;
+    font-size: 14pt;
+    font-weight: bolder;
+  }
+
+  /* line 51, ../sass/media.scss */
+  #menu {
+    height: 90px;
+  }
+  /* line 54, ../sass/media.scss */
+  #menu ul li {
+    width: 30%;
+    margin: 8px 8%;
+  }
+  /* line 58, ../sass/media.scss */
+  #menu ul li:first-child {
+    margin-left: 8%;
+  }
+}
