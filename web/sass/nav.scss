@@ -1,0 +1,26 @@
+#nav{
+  position: fixed;
+  float: right;
+  right: 20px;
+  top: 50%;
+
+  #menu{
+
+    ul{
+      list-style-type: none;
+
+      li{
+        cursor: pointer;
+        height: 30px;
+        a{
+          text-align: center;
+          text-decoration: none;
+          display: block;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+
