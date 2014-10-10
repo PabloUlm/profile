@@ -1,58 +1,66 @@
 /* line 1, ../sass/intro.scss */
 #mainFrame {
   position: relative;
-  top: 100px;
   width: 100%;
 }
-/* line 6, ../sass/intro.scss */
+/* line 5, ../sass/intro.scss */
 #mainFrame ul {
   padding: 2% 0px;
 }
-/* line 9, ../sass/intro.scss */
+/* line 8, ../sass/intro.scss */
 #mainFrame ul li {
   padding: 1%;
   list-style: none;
 }
-/* line 15, ../sass/intro.scss */
+/* line 14, ../sass/intro.scss */
 #mainFrame a {
   text-decoration: none;
 }
-/* line 19, ../sass/intro.scss */
+/* line 18, ../sass/intro.scss */
 #mainFrame .title-wrap {
   position: relative;
   width: 100%;
   color: white;
-  background: black url(../images/pablo-header-gray.png) no-repeat top center;
-  min-height: 500px;
 }
-/* line 25, ../sass/intro.scss */
+/* line 23, ../sass/intro.scss */
 #mainFrame .title-wrap .title {
   width: 80%;
   padding: 0 10%;
 }
-/* line 33, ../sass/intro.scss */
+/* line 31, ../sass/intro.scss */
+#mainFrame .header {
+  background: black url(../images/header-bg.png) no-repeat top left;
+  min-height: 300px;
+  -webkit-background-size: cover !important;
+}
+/* line 35, ../sass/intro.scss */
+#mainFrame .header .main-title {
+  text-align: center;
+  padding-top: 100px;
+}
+/* line 42, ../sass/intro.scss */
 #mainFrame .content-wrap {
   position: relative;
   width: 100%;
   min-height: 100px;
 }
-/* line 38, ../sass/intro.scss */
+/* line 47, ../sass/intro.scss */
 #mainFrame .content-wrap .content {
   width: 80%;
   padding: 0 10%;
 }
-/* line 43, ../sass/intro.scss */
+/* line 52, ../sass/intro.scss */
 #mainFrame .content-wrap img {
   float: left;
   margin: 10px 10px;
 }
-/* line 48, ../sass/intro.scss */
+/* line 57, ../sass/intro.scss */
 #mainFrame .content-wrap .floatingDiv {
   position: relative;
   float: left;
   margin-left: 50px;
 }
-/* line 54, ../sass/intro.scss */
+/* line 63, ../sass/intro.scss */
 #mainFrame .content-wrap .afterFloatingDiv {
   clear: both;
 }

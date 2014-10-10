@@ -15,14 +15,14 @@
 	
 	<script src="http://code.jquery.com/jquery-1.9.0.js"></script>
 	<script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
-	<script type="text/javascript" src="js/jquery.flip.min.js"></script>
-	<script type="text/javascript" src="js/effect.js"></script> 
-	<!-- http://lab.smashup.it/flip/ -->
 	<script type="text/javascript">
 	
 		$(document).ready(function() {
-			//$('#menu').effect();
-			
+            $('.header').css({ 'height': $(window).height() });
+            $(window).on('resize', function() {
+                $('.header').css({ 'height': $(window).height() });
+                $('body').css({ 'width': $(window).width() })
+            });
 		});
 	
 	</script>
@@ -30,7 +30,6 @@
 </head>
 <body>
 	<div id="nav">
-		<!--img alt="face" src="images/headerFace.png" style="background-color: transparent;" /-->
         <div id="menu">
             <ul>
                 <li><a href="#career">	Career	</a></li>
@@ -39,13 +38,7 @@
                 <li><a href="#contact">	Contact	</a></li>
             </ul>
         </div>
-        <!--div id="languageSelector">
-            <ul>
-                <li><a>	Spanish	</a></li>
-                <li><a>	English	</a></li>
-            </ul>
-        </div>
-        <div id="socialNetworks">
+        <!--div id="socialNetworks">
             <ul>
                 <li><a> Facebook </a></li>
                 <li><a> Twitter </a></li>
@@ -56,17 +49,18 @@
 
 	<div id="mainFrame">
 
-        <div class="title-wrap odd">
-            <div class="title">
+        <div class="title-wrap header odd">
+            <div class="title main-title">
                 <h2>
                     Welcome to my CV online.
                 </h2>
             </div>
-        </div>
-
-        <div class="content-wrap odd">
-            <div class="content">
-                <p> Welcome to my CV online. </p>
+            <div id="languageSelector">
+                <ul>
+                    <li><a>	Spanish	</a></li>
+                    <li><a>	English	</a></li>
+                    <li><a>	German	</a></li>
+                </ul>
             </div>
         </div>
 
@@ -85,7 +79,8 @@
                 </h3>
 
                 <a href="http://www.a-bit-more.de/">
-                    <img style="background-color: transparent;" src="images/logo_hau.png" />
+                    <!-- try to use this in the css @include sprites-sprite(logo_hau); -->
+                    <!--img style="background-color: transparent;" src="images/logo_hau.png" /-->
                 </a>
 
                 <div class="floatingDiv">

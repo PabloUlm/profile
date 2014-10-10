@@ -1,3 +1,9 @@
+// Sprites
+@import "../images/sprites/*.png";
+$sprites: sprite-map("../images/sprites/*.png");
+@mixin _sprite($icon) {
+  @include sprites-sprite($icon);
+}
 @import "settings";
 
 @import "intro";

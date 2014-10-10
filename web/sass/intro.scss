@@ -1,6 +1,5 @@
 #mainFrame{
 	position: relative;
-	top: 100px;
 	width: 100%;
 
   ul{
@@ -20,8 +19,6 @@
     position: relative;
     width: 100%;
     color: white;
-    background: black url(../images/pablo-header-gray.png) no-repeat top center;
-    min-height: 500px;
 
     .title{
       width: 80%;
@@ -29,6 +26,17 @@
     }
   }
   .title-wrap.odd{
+  }
+
+  .header{
+    background: black url(../images/header-bg.png) no-repeat top left;
+    min-height: 300px;
+    -webkit-background-size: cover !important;
+    .main-title{
+      text-align: center;
+      padding-top: 100px;
+
+    }
   }
 
   .content-wrap {
