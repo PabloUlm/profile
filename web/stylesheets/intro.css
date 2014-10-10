@@ -1,28 +1,29 @@
 /* line 1, ../sass/intro.scss */
 #mainFrame {
-  z-index: 50;
   position: relative;
   top: 100px;
   width: 100%;
 }
-/* line 7, ../sass/intro.scss */
+/* line 6, ../sass/intro.scss */
 #mainFrame ul {
   padding: 2% 0px;
 }
-/* line 10, ../sass/intro.scss */
+/* line 9, ../sass/intro.scss */
 #mainFrame ul li {
   padding: 1%;
   list-style: none;
 }
-/* line 16, ../sass/intro.scss */
+/* line 15, ../sass/intro.scss */
 #mainFrame a {
   text-decoration: none;
 }
-/* line 20, ../sass/intro.scss */
+/* line 19, ../sass/intro.scss */
 #mainFrame .title-wrap {
   position: relative;
   width: 100%;
   color: white;
+  background: black url(../images/pablo-header-gray.png) no-repeat top center;
+  min-height: 500px;
 }
 /* line 25, ../sass/intro.scss */
 #mainFrame .title-wrap .title {

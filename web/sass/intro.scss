@@ -1,5 +1,4 @@
 #mainFrame{
-	z-index: 50;
 	position: relative;
 	top: 100px;
 	width: 100%;
@@ -21,6 +20,8 @@
     position: relative;
     width: 100%;
     color: white;
+    background: black url(../images/pablo-header-gray.png) no-repeat top center;
+    min-height: 500px;
 
     .title{
       width: 80%;

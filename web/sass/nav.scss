@@ -1,8 +1,9 @@
 #nav{
+  z-index: 99;
   position: fixed;
   float: right;
   right: 20px;
-  top: 50%;
+  top: 41%;
 
   #menu{
 
@@ -17,6 +18,7 @@
           text-decoration: none;
           display: block;
           color: white;
+          text-align: right;
         }
       }
     }

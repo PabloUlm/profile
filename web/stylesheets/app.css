@@ -22,29 +22,30 @@ http://svgeneration.com/generate/Dual-Triangles?width=10&color1=222222&color2=26
 
 /* line 1, ../sass/intro.scss */
 #mainFrame {
-  z-index: 50;
   position: relative;
   top: 100px;
   width: 100%;
 }
-/* line 7, ../sass/intro.scss */
+/* line 6, ../sass/intro.scss */
 #mainFrame ul {
   padding: 2% 0px;
 }
-/* line 10, ../sass/intro.scss */
+/* line 9, ../sass/intro.scss */
 #mainFrame ul li {
   padding: 1%;
   list-style: none;
 }
-/* line 16, ../sass/intro.scss */
+/* line 15, ../sass/intro.scss */
 #mainFrame a {
   text-decoration: none;
 }
-/* line 20, ../sass/intro.scss */
+/* line 19, ../sass/intro.scss */
 #mainFrame .title-wrap {
   position: relative;
   width: 100%;
   color: white;
+  background: black url(../images/pablo-header-gray.png) no-repeat top center;
+  min-height: 500px;
 }
 /* line 25, ../sass/intro.scss */
 #mainFrame .title-wrap .title {
@@ -146,24 +147,26 @@ http://svgeneration.com/generate/Dual-Triangles?width=10&color1=222222&color2=26
 }
 /* line 1, ../sass/nav.scss */
 #nav {
+  z-index: 99;
   position: fixed;
   float: right;
   right: 20px;
-  top: 50%;
+  top: 41%;
 }
-/* line 9, ../sass/nav.scss */
+/* line 10, ../sass/nav.scss */
 #nav #menu ul {
   list-style-type: none;
 }
-/* line 12, ../sass/nav.scss */
+/* line 13, ../sass/nav.scss */
 #nav #menu ul li {
   cursor: pointer;
   height: 30px;
 }
-/* line 15, ../sass/nav.scss */
+/* line 16, ../sass/nav.scss */
 #nav #menu ul li a {
   text-align: center;
   text-decoration: none;
   display: block;
   color: white;
+  text-align: right;
 }
