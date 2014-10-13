@@ -1,16 +1,6 @@
 #mainFrame{
 	position: relative;
 	width: 100%;
-
-  ul{
-    padding: 2% 0px;
-
-    li{
-      padding: 1%;
-      list-style: none;
-    }
-  }
-
   a{
     text-decoration: none;
   }
@@ -32,10 +22,43 @@
     background: black url(../images/header-bg.png) no-repeat top left;
     min-height: 300px;
     -webkit-background-size: cover !important;
+    padding-top: 100px;
+    .double-line-top{
+      width: 50%;
+      min-height: 8px;
+      border-top: 1px solid #FE9A2E;
+      border-bottom: 2px solid #FE9A2E;
+      margin: auto;
+    }
+    .languageSelector{
+      ul{
+        .german-flag{
+          padding: icons-sprite-height(german-flag-gray)/2 icons-sprite-width(german-flag-gray)/2;
+          @include icons-sprite(german-flag-gray);
+          &:hover{
+            @include icons-sprite(german-flag);
+          }
+        }
+      }
+    }
     .main-title{
       text-align: center;
-      padding-top: 100px;
-
+      color: #FE9A2E;
+      text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+      font-size: 50px;
+    }
+    .subtitle{
+      text-align: center;
+      color: #FE9A2E;
+      text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+      font-size: 2rem;
+    }
+    .double-line-bottom{
+      width: 50%;
+      min-height: 8px;
+      border-bottom: 1px solid #FE9A2E;
+      border-top: 2px solid #FE9A2E;
+      margin: auto;
     }
   }
 
@@ -62,6 +85,24 @@
 
     .afterFloatingDiv{
       clear: both;
+    }
+    .hau-it-service-logo{
+      height: icons-sprite-height(logo-hau);
+      width: icons-sprite-width(logo-hau);
+      display: inline-block;
+      @include icons-sprite(logo-hau);
+    }
+    .cassidian-logo{
+      height: icons-sprite-height(cassidian);
+      width: icons-sprite-width(cassidian);
+      display: inline-block;
+      @include icons-sprite(cassidian);
+    }
+    .axesor-logo{
+      height: icons-sprite-height(axesor);
+      width: icons-sprite-width(axesor);
+      display: inline-block;
+      @include icons-sprite(axesor);
     }
   }
   .content-wrap.odd {

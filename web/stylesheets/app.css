@@ -1,6 +1,46 @@
-/* line 82, ../images/sprites/*.png */
-.sprites-sprite {
-  background: url('/images/../images/sprites-s7be22a00c2.png') no-repeat;
+/* line 98, icons/*.png */
+.icons-sprite, .icons-axesor, .icons-boscoLogo, .icons-cassidian, .icons-german-flag-gray, .icons-german-flag, .icons-logo-hau, .icons-ugrLogo, .icons-ulmLogo, #mainFrame .header .languageSelector ul .german-flag, #mainFrame .header .languageSelector ul .german-flag:hover, #mainFrame .content-wrap .hau-it-service-logo, #mainFrame .content-wrap .cassidian-logo, #mainFrame .content-wrap .axesor-logo {
+  background: url('/images/icons-se25e63b696.png') no-repeat;
+}
+
+/* line 60, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-axesor {
+  background-position: 0 -170px;
+}
+
+/* line 60, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-boscoLogo {
+  background-position: 0 -50px;
+}
+
+/* line 60, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-cassidian {
+  background-position: 0 -245px;
+}
+
+/* line 60, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-german-flag-gray {
+  background-position: 0 -379px;
+}
+
+/* line 60, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-german-flag {
+  background-position: 0 -348px;
+}
+
+/* line 60, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-logo-hau {
+  background-position: 0 -285px;
+}
+
+/* line 60, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-ugrLogo {
+  background-position: 0 0;
+}
+
+/* line 60, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-ulmLogo {
+  background-position: 0 -120px;
 }
 
 /* line 1, ../sass/settings.scss */
@@ -30,66 +70,113 @@ http://svgeneration.com/generate/Dual-Triangles?width=10&color1=222222&color2=26
   position: relative;
   width: 100%;
 }
-/* line 5, ../sass/intro.scss */
-#mainFrame ul {
-  padding: 2% 0px;
-}
-/* line 8, ../sass/intro.scss */
-#mainFrame ul li {
-  padding: 1%;
-  list-style: none;
-}
-/* line 14, ../sass/intro.scss */
+/* line 4, ../sass/intro.scss */
 #mainFrame a {
   text-decoration: none;
 }
-/* line 18, ../sass/intro.scss */
+/* line 8, ../sass/intro.scss */
 #mainFrame .title-wrap {
   position: relative;
   width: 100%;
   color: white;
 }
-/* line 23, ../sass/intro.scss */
+/* line 13, ../sass/intro.scss */
 #mainFrame .title-wrap .title {
   width: 80%;
   padding: 0 10%;
 }
-/* line 31, ../sass/intro.scss */
+/* line 21, ../sass/intro.scss */
 #mainFrame .header {
   background: black url(../images/header-bg.png) no-repeat top left;
   min-height: 300px;
   -webkit-background-size: cover !important;
-}
-/* line 35, ../sass/intro.scss */
-#mainFrame .header .main-title {
-  text-align: center;
   padding-top: 100px;
 }
-/* line 42, ../sass/intro.scss */
+/* line 26, ../sass/intro.scss */
+#mainFrame .header .double-line-top {
+  width: 50%;
+  min-height: 8px;
+  border-top: 1px solid #FE9A2E;
+  border-bottom: 2px solid #FE9A2E;
+  margin: auto;
+}
+/* line 35, ../sass/intro.scss */
+#mainFrame .header .languageSelector ul .german-flag {
+  padding: 15.5px 15px;
+  background-position: 0 -379px;
+}
+/* line 38, ../sass/intro.scss */
+#mainFrame .header .languageSelector ul .german-flag:hover {
+  background-position: 0 -348px;
+}
+/* line 44, ../sass/intro.scss */
+#mainFrame .header .main-title {
+  text-align: center;
+  color: #FE9A2E;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
+  font-size: 50px;
+}
+/* line 50, ../sass/intro.scss */
+#mainFrame .header .subtitle {
+  text-align: center;
+  color: #FE9A2E;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
+  font-size: 2rem;
+}
+/* line 56, ../sass/intro.scss */
+#mainFrame .header .double-line-bottom {
+  width: 50%;
+  min-height: 8px;
+  border-bottom: 1px solid #FE9A2E;
+  border-top: 2px solid #FE9A2E;
+  margin: auto;
+}
+/* line 65, ../sass/intro.scss */
 #mainFrame .content-wrap {
   position: relative;
   width: 100%;
   min-height: 100px;
 }
-/* line 47, ../sass/intro.scss */
+/* line 70, ../sass/intro.scss */
 #mainFrame .content-wrap .content {
   width: 80%;
   padding: 0 10%;
 }
-/* line 52, ../sass/intro.scss */
+/* line 75, ../sass/intro.scss */
 #mainFrame .content-wrap img {
   float: left;
   margin: 10px 10px;
 }
-/* line 57, ../sass/intro.scss */
+/* line 80, ../sass/intro.scss */
 #mainFrame .content-wrap .floatingDiv {
   position: relative;
   float: left;
   margin-left: 50px;
 }
-/* line 63, ../sass/intro.scss */
+/* line 86, ../sass/intro.scss */
 #mainFrame .content-wrap .afterFloatingDiv {
   clear: both;
+}
+/* line 89, ../sass/intro.scss */
+#mainFrame .content-wrap .hau-it-service-logo {
+  height: 63px;
+  width: 150px;
+  display: inline-block;
+  background-position: 0 -285px;
+}
+/* line 95, ../sass/intro.scss */
+#mainFrame .content-wrap .cassidian-logo {
+  height: 40px;
+  width: 419px;
+  display: inline-block;
+  background-position: 0 -245px;
+}
+/* line 101, ../sass/intro.scss */
+#mainFrame .content-wrap .axesor-logo {
+  height: 75px;
+  width: 146px;
+  display: inline-block;
+  background-position: 0 -170px;
 }
 
 @media only screen and (max-width: 1100px) {
