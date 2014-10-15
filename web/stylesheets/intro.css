@@ -1,32 +1,16 @@
 /*
-Syntax error: Undefined mixin 'icons-sprite'.
-        on line 37 of c:/xampp/htdocs/profile/web/sass/intro.scss, in `icons-sprite'
-        from line 37 of c:/xampp/htdocs/profile/web/sass/intro.scss
+Syntax error: Undefined variable: "$main-color".
+        on line 27 of c:/xampp/htdocs/profile/web/sass/intro.scss
 
 Backtrace:
-c:/xampp/htdocs/profile/web/sass/intro.scss:37:in `icons-sprite'
-c:/xampp/htdocs/profile/web/sass/intro.scss:37
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:253:in `visit_mixin'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `visit'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:100:in `visit'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `map'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `visit'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:100:in `visit'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `map'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+c:/xampp/htdocs/profile/web/sass/intro.scss:27
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/script/variable.rb:49:in `_perform'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/script/node.rb:40:in `perform'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/script/list.rb:71:in `block in _perform'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/script/list.rb:71:in `map'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/script/list.rb:71:in `_perform'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/script/node.rb:40:in `perform'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
 c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `visit'
 c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:100:in `visit'
 c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
@@ -84,7 +68,23 @@ c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/compiler.rb:1
 c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/compiler.rb:101:in `block in run'
 c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/compiler.rb:126:in `timed'
 c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/compiler.rb:100:in `run'
-c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/commands/update_project.rb:45:in `perform'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/commands/watch_project.rb:147:in `recompile'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:35:in `update'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:39:in `block in modified'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `each'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `modified'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:18:in `refresh'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `each'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block in run'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `loop'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `run'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
+c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/commands/watch_project.rb:87:in `perform'
 c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/commands/base.rb:18:in `execute'
 c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/commands/project_base.rb:19:in `execute'
 c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
@@ -98,4 +98,4 @@ c:/Ruby200-x64/bin/compass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'icons-sprite'.\A         on line 37 of c:/xampp/htdocs/profile/web/sass/intro.scss, in `icons-sprite'\A         from line 37 of c:/xampp/htdocs/profile/web/sass/intro.scss"; }
+  content: "Syntax error: Undefined variable: \"$main-color\".\A         on line 27 of c:/xampp/htdocs/profile/web/sass/intro.scss"; }

@@ -1,24 +1,22 @@
 #nav{
+  width: 100%;
   z-index: 99;
-  position: fixed;
-  float: right;
-  right: 20px;
-  top: 41%;
-
+  position: absolute;
   #menu{
-
     ul{
       list-style-type: none;
-
+      text-align: center;
       li{
-        cursor: pointer;
         height: 30px;
+        display: inline-block;
+        margin: 13px 30px;
         a{
-          text-align: center;
           text-decoration: none;
-          display: block;
-          color: white;
-          text-align: right;
+          display: inline-block;
+          color: #FE9A2E;//#F3E2A9 soft orange
+          cursor: pointer;
+          text-shadow: 1px 1px 0px rgba(0, 0, 0, .8);
+          font-weight: bold;
         }
       }
     }

@@ -1,25 +1,26 @@
 /* line 1, ../sass/nav.scss */
 #nav {
+  width: 100%;
   z-index: 99;
-  position: fixed;
-  float: right;
-  right: 20px;
-  top: 41%;
+  position: absolute;
 }
-/* line 10, ../sass/nav.scss */
+/* line 6, ../sass/nav.scss */
 #nav #menu ul {
   list-style-type: none;
+  text-align: center;
+}
+/* line 9, ../sass/nav.scss */
+#nav #menu ul li {
+  height: 30px;
+  display: inline-block;
+  margin: 13px 30px;
 }
 /* line 13, ../sass/nav.scss */
-#nav #menu ul li {
-  cursor: pointer;
-  height: 30px;
-}
-/* line 16, ../sass/nav.scss */
 #nav #menu ul li a {
-  text-align: center;
   text-decoration: none;
-  display: block;
-  color: white;
-  text-align: right;
+  display: inline-block;
+  color: #FE9A2E;
+  cursor: pointer;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
+  font-weight: bold;
 }

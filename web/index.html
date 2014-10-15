@@ -5,26 +5,22 @@
 	<title>My profile</title>
 	
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  
-	<meta name="HandheldFriendly" content="true">  
-	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
-	
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+
 	<link rel="stylesheet" type="text/css" href="stylesheets/app.css" />
-	
-	<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-	
+
 	<script src="http://code.jquery.com/jquery-1.9.0.js"></script>
-	<script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
 	<script type="text/javascript">
-	
 		$(document).ready(function() {
-            $('.header').css({ 'height': $(window).height() });
+            $('.header').css({ 'height': $(window).height()*0.8 });
+            $('.header').css({ 'padding-top': $(window).height()*0.2 })
             $(window).on('resize', function() {
-                $('.header').css({ 'height': $(window).height() });
-                $('body').css({ 'width': $(window).width() })
+                $('.header').css({ 'height': $(window).height()*0.8 });
+                $('.header').css({ 'padding-top': $(window).height()*0.2 })
             });
 		});
-	
 	</script>
 	
 </head>
@@ -32,40 +28,31 @@
 	<div id="nav">
         <div id="menu">
             <ul>
-                <li><a href="#career">	Career	</a></li>
-                <li><a href="#skills">	Skills	</a></li>
-                <li><a href="#studies">	Studies	</a></li>
-                <li><a href="#contact">	Contact	</a></li>
+                <li><a href="#career">	CAREER	</a></li>
+                <li><a href="#skills">	SKILLS	</a></li>
+                <li><a href="#studies">	STUDIES	</a></li>
+                <li><a href="#contact">	CONTACT	</a></li>
             </ul>
         </div>
-        <!--div id="socialNetworks">
-            <ul>
-                <li><a> Facebook </a></li>
-                <li><a> Twitter </a></li>
-                <li><a> LikedIn </a></li>
-            </ul>
-        </div-->
 	</div>
 
 	<div id="mainFrame">
 
-        <div class="title-wrap header odd">
+        <div class="title-wrap header">
             <div class="double-line-top"></div>
-            <div id="languageSelector">
-                <ul>
-                    <li class="spanish-flag"><a href="#">	Spanish	</a></li>
-                    <li class="english-flag"><a href="#">	English	</a></li>
-                    <li class="german-flag"><a href="#">	German	</a></li>
-                </ul>
-            </div>
             <div class="title main-title">
                 <h2>
-                    PABLO SANCHEZ
+                    Pablo Sanchez
                 </h2>
             </div>
             <div class="subtitle">
-                <p>frontend and backend developer</p>
+                <p>frontend and backend web developer</p>
             </div>
+            <ul id="languageSelector">
+                <li class="spanish-flag"><a href="#"></a></li>
+                <li class="english-flag"><a href="#"></a></li>
+                <li class="german-flag"><a href="#"></a></li>
+            </ul>
             <div class="double-line-bottom"></div>
         </div>
 

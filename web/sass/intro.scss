@@ -15,49 +15,80 @@
       padding: 0 10%;
     }
   }
-  .title-wrap.odd{
-  }
-
   .header{
-    background: black url(../images/header-bg.png) no-repeat top left;
+    background: black url(../images/header-bg.png) no-repeat bottom left;
     min-height: 300px;
+    background-size: cover !important;
     -webkit-background-size: cover !important;
-    padding-top: 100px;
+    overflow: hidden;
     .double-line-top{
       width: 50%;
       min-height: 8px;
-      border-top: 1px solid #FE9A2E;
-      border-bottom: 2px solid #FE9A2E;
+      border-top: 1px solid $main-color;
+      border-bottom: 2px solid $main-color;
       margin: auto;
     }
-    .languageSelector{
-      ul{
-        .german-flag{
-          padding: icons-sprite-height(german-flag-gray)/2 icons-sprite-width(german-flag-gray)/2;
-          @include icons-sprite(german-flag-gray);
-          &:hover{
-            @include icons-sprite(german-flag);
-          }
+    #languageSelector{
+      list-style-type: none;
+      text-align: center;
+      li{
+        margin: 10px 15px;
+        display: inline-block;
+        a{
+          display: inline-block;
+        }
+      }
+      .spanish-flag{
+        background: url('/images/spain-gray.svg') no-repeat;
+        a{
+          cursor: pointer;
+          width: 50px;
+          height: 33px;
+        }
+        &:hover{
+          background: url('/images/spain-color.svg') no-repeat;
+        }
+      }
+      .english-flag{
+        background: url('/images/united-kingdom-gray.svg') no-repeat;
+        a{
+          cursor: pointer;
+          width: 66px;
+          height: 33px;
+        }
+        &:hover{
+          background: url('/images/united-kingdom-color.svg') no-repeat;
+        }
+      }
+      .german-flag{
+        background: url('/images/germany-gray.svg') no-repeat;
+        a{
+          cursor: pointer;
+          width: 55px;
+          height: 33px;
+        }
+        &:hover{
+          background: url('/images/germany-color.svg') no-repeat;
         }
       }
     }
     .main-title{
       text-align: center;
-      color: #FE9A2E;
+      color: $main-color;
       text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
-      font-size: 50px;
+      font-size: 60px;
     }
     .subtitle{
       text-align: center;
-      color: #FE9A2E;
+      color: $main-color;
       text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
       font-size: 2rem;
     }
     .double-line-bottom{
       width: 50%;
       min-height: 8px;
-      border-bottom: 1px solid #FE9A2E;
-      border-top: 2px solid #FE9A2E;
+      border-bottom: 1px solid $main-color;
+      border-top: 2px solid $main-color;
       margin: auto;
     }
   }

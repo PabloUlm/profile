@@ -1,5 +1,5 @@
 /* line 98, icons/*.png */
-.icons-sprite, .icons-axesor, .icons-boscoLogo, .icons-cassidian, .icons-german-flag-gray, .icons-german-flag, .icons-logo-hau, .icons-ugrLogo, .icons-ulmLogo, #mainFrame .header .languageSelector ul .german-flag, #mainFrame .header .languageSelector ul .german-flag:hover, #mainFrame .content-wrap .hau-it-service-logo, #mainFrame .content-wrap .cassidian-logo, #mainFrame .content-wrap .axesor-logo {
+.icons-sprite, .icons-axesor, .icons-boscoLogo, .icons-cassidian, .icons-german-flag-gray, .icons-german-flag, .icons-logo-hau, .icons-ugrLogo, .icons-ulmLogo, #mainFrame .content-wrap .hau-it-service-logo, #mainFrame .content-wrap .cassidian-logo, #mainFrame .content-wrap .axesor-logo {
   background: url('/images/icons-se25e63b696.png') no-repeat;
 }
 
@@ -85,93 +85,141 @@ http://svgeneration.com/generate/Dual-Triangles?width=10&color1=222222&color2=26
   width: 80%;
   padding: 0 10%;
 }
-/* line 21, ../sass/intro.scss */
+/* line 18, ../sass/intro.scss */
 #mainFrame .header {
-  background: black url(../images/header-bg.png) no-repeat top left;
+  background: black url(../images/header-bg.png) no-repeat bottom left;
   min-height: 300px;
+  background-size: cover !important;
   -webkit-background-size: cover !important;
-  padding-top: 100px;
+  overflow: hidden;
 }
-/* line 26, ../sass/intro.scss */
+/* line 24, ../sass/intro.scss */
 #mainFrame .header .double-line-top {
   width: 50%;
   min-height: 8px;
-  border-top: 1px solid #FE9A2E;
-  border-bottom: 2px solid #FE9A2E;
+  border-top: 1px solid white;
+  border-bottom: 2px solid white;
   margin: auto;
 }
-/* line 35, ../sass/intro.scss */
-#mainFrame .header .languageSelector ul .german-flag {
-  padding: 15.5px 15px;
-  background-position: 0 -379px;
+/* line 31, ../sass/intro.scss */
+#mainFrame .header #languageSelector {
+  list-style-type: none;
+  text-align: center;
 }
-/* line 38, ../sass/intro.scss */
-#mainFrame .header .languageSelector ul .german-flag:hover {
-  background-position: 0 -348px;
+/* line 34, ../sass/intro.scss */
+#mainFrame .header #languageSelector li {
+  margin: 10px 15px;
+  display: inline-block;
 }
-/* line 44, ../sass/intro.scss */
+/* line 37, ../sass/intro.scss */
+#mainFrame .header #languageSelector li a {
+  display: inline-block;
+}
+/* line 41, ../sass/intro.scss */
+#mainFrame .header #languageSelector .spanish-flag {
+  background: url("/images/spain-gray.svg") no-repeat;
+}
+/* line 43, ../sass/intro.scss */
+#mainFrame .header #languageSelector .spanish-flag a {
+  cursor: pointer;
+  width: 50px;
+  height: 33px;
+}
+/* line 48, ../sass/intro.scss */
+#mainFrame .header #languageSelector .spanish-flag:hover {
+  background: url("/images/spain-color.svg") no-repeat;
+}
+/* line 52, ../sass/intro.scss */
+#mainFrame .header #languageSelector .english-flag {
+  background: url("/images/united-kingdom-gray.svg") no-repeat;
+}
+/* line 54, ../sass/intro.scss */
+#mainFrame .header #languageSelector .english-flag a {
+  cursor: pointer;
+  width: 66px;
+  height: 33px;
+}
+/* line 59, ../sass/intro.scss */
+#mainFrame .header #languageSelector .english-flag:hover {
+  background: url("/images/united-kingdom-color.svg") no-repeat;
+}
+/* line 63, ../sass/intro.scss */
+#mainFrame .header #languageSelector .german-flag {
+  background: url("/images/germany-gray.svg") no-repeat;
+}
+/* line 65, ../sass/intro.scss */
+#mainFrame .header #languageSelector .german-flag a {
+  cursor: pointer;
+  width: 55px;
+  height: 33px;
+}
+/* line 70, ../sass/intro.scss */
+#mainFrame .header #languageSelector .german-flag:hover {
+  background: url("/images/germany-color.svg") no-repeat;
+}
+/* line 75, ../sass/intro.scss */
 #mainFrame .header .main-title {
   text-align: center;
-  color: #FE9A2E;
+  color: white;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
-  font-size: 50px;
+  font-size: 60px;
 }
-/* line 50, ../sass/intro.scss */
+/* line 81, ../sass/intro.scss */
 #mainFrame .header .subtitle {
   text-align: center;
-  color: #FE9A2E;
+  color: white;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
   font-size: 2rem;
 }
-/* line 56, ../sass/intro.scss */
+/* line 87, ../sass/intro.scss */
 #mainFrame .header .double-line-bottom {
   width: 50%;
   min-height: 8px;
-  border-bottom: 1px solid #FE9A2E;
-  border-top: 2px solid #FE9A2E;
+  border-bottom: 1px solid white;
+  border-top: 2px solid white;
   margin: auto;
 }
-/* line 65, ../sass/intro.scss */
+/* line 96, ../sass/intro.scss */
 #mainFrame .content-wrap {
   position: relative;
   width: 100%;
   min-height: 100px;
 }
-/* line 70, ../sass/intro.scss */
+/* line 101, ../sass/intro.scss */
 #mainFrame .content-wrap .content {
   width: 80%;
   padding: 0 10%;
 }
-/* line 75, ../sass/intro.scss */
+/* line 106, ../sass/intro.scss */
 #mainFrame .content-wrap img {
   float: left;
   margin: 10px 10px;
 }
-/* line 80, ../sass/intro.scss */
+/* line 111, ../sass/intro.scss */
 #mainFrame .content-wrap .floatingDiv {
   position: relative;
   float: left;
   margin-left: 50px;
 }
-/* line 86, ../sass/intro.scss */
+/* line 117, ../sass/intro.scss */
 #mainFrame .content-wrap .afterFloatingDiv {
   clear: both;
 }
-/* line 89, ../sass/intro.scss */
+/* line 120, ../sass/intro.scss */
 #mainFrame .content-wrap .hau-it-service-logo {
   height: 63px;
   width: 150px;
   display: inline-block;
   background-position: 0 -285px;
 }
-/* line 95, ../sass/intro.scss */
+/* line 126, ../sass/intro.scss */
 #mainFrame .content-wrap .cassidian-logo {
   height: 40px;
   width: 419px;
   display: inline-block;
   background-position: 0 -245px;
 }
-/* line 101, ../sass/intro.scss */
+/* line 132, ../sass/intro.scss */
 #mainFrame .content-wrap .axesor-logo {
   height: 75px;
   width: 146px;
@@ -179,87 +227,43 @@ http://svgeneration.com/generate/Dual-Triangles?width=10&color1=222222&color2=26
   background-position: 0 -170px;
 }
 
-@media only screen and (max-width: 1100px) {
-  /* line 2, ../sass/media.scss */
-  #header h1 {
-    margin-top: 1%;
-    font-size: 25pt;
-    width: 50%;
-  }
-}
-@media only screen and (max-width: 800px) {
-  /* line 13, ../sass/media.scss */
-  #header h1 {
-    font-size: 18pt;
-    width: 40%;
-  }
-  /* line 16, ../sass/media.scss */
-  #header h1 img {
-    margin: 0px;
-  }
-}
-@media only screen and (max-width: 600px) {
-  /* line 24, ../sass/media.scss */
-  #menu ul li {
-    width: 16%;
-    margin: 10px 4%;
-  }
-
-  /* line 29, ../sass/media.scss */
-  #menu ul li:first-child {
-    margin-left: 4%;
-  }
-
-  /* line 33, ../sass/media.scss */
-  .floatingDiv {
-    margin-left: 0px;
-  }
-}
 @media only screen and (max-width: 400px) {
-  /* line 39, ../sass/media.scss */
-  #header h1 {
-    width: 45%;
-    margin-top: 10px;
-    font-size: 14pt;
-    font-weight: bolder;
+  /* line 16, ../sass/media.scss */
+  #mainFrame .header .double-line-top {
+    width: 80%;
   }
-
-  /* line 47, ../sass/media.scss */
-  #menu {
-    height: 90px;
+  /* line 19, ../sass/media.scss */
+  #mainFrame .header .main-title {
+    font-size: 32pt;
   }
-  /* line 50, ../sass/media.scss */
-  #menu ul li {
-    width: 30%;
-    margin: 8px 8%;
-  }
-  /* line 54, ../sass/media.scss */
-  #menu ul li:first-child {
-    margin-left: 8%;
+  /* line 22, ../sass/media.scss */
+  #mainFrame .header .double-line-bottom {
+    width: 80%;
   }
 }
 /* line 1, ../sass/nav.scss */
 #nav {
+  width: 100%;
   z-index: 99;
-  position: fixed;
-  float: right;
-  right: 20px;
-  top: 41%;
+  position: absolute;
 }
-/* line 10, ../sass/nav.scss */
+/* line 6, ../sass/nav.scss */
 #nav #menu ul {
   list-style-type: none;
+  text-align: center;
+}
+/* line 9, ../sass/nav.scss */
+#nav #menu ul li {
+  height: 30px;
+  display: inline-block;
+  margin: 13px 30px;
 }
 /* line 13, ../sass/nav.scss */
-#nav #menu ul li {
-  cursor: pointer;
-  height: 30px;
-}
-/* line 16, ../sass/nav.scss */
 #nav #menu ul li a {
-  text-align: center;
   text-decoration: none;
-  display: block;
-  color: white;
-  text-align: right;
+  display: inline-block;
+  color: #FE9A2E;
+  cursor: pointer;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
+  font-weight: bold;
 }
