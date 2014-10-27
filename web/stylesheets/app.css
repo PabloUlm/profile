@@ -1,46 +1,172 @@
-/* line 98, icons/*.png */
+/* line 5, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 7, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities-legacy.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 17, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities-legacy.scss */
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+/* line 19, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities-legacy.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 21, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities-legacy.scss */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+/* line 23, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities-legacy.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 25, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities-legacy.scss */
+q, blockquote {
+  quotes: "" "";
+}
+/* line 96, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities-legacy.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+}
+
+/* line 27, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities-legacy.scss */
+a img {
+  border: none;
+}
+
+/* line 104, icons/*.png */
 .icons-sprite, .icons-axesor, .icons-boscoLogo, .icons-cassidian, .icons-german-flag-gray, .icons-german-flag, .icons-logo-hau, .icons-ugrLogo, .icons-ulmLogo, #mainFrame .content-wrap .hau-it-service-logo, #mainFrame .content-wrap .cassidian-logo, #mainFrame .content-wrap .axesor-logo {
-  background: url('/images/icons-se25e63b696.png') no-repeat;
+  background-image: url('../images/icons-s95257b4d86.png');
+  background-repeat: no-repeat;
 }
 
-/* line 60, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-axesor {
-  background-position: 0 -170px;
-}
-
-/* line 60, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-boscoLogo {
-  background-position: 0 -50px;
-}
-
-/* line 60, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-cassidian {
-  background-position: 0 -245px;
-}
-
-/* line 60, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-german-flag-gray {
-  background-position: 0 -379px;
-}
-
-/* line 60, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-german-flag {
-  background-position: 0 -348px;
-}
-
-/* line 60, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-logo-hau {
-  background-position: 0 -285px;
-}
-
-/* line 60, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-ugrLogo {
   background-position: 0 0;
 }
 
-/* line 60, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-boscoLogo {
+  background-position: 0 -75px;
+}
+
+/* line 84, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-cassidian {
+  background-position: 0 -145px;
+}
+
+/* line 84, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-german-flag-gray {
+  background-position: 0 -185px;
+}
+
+/* line 84, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-german-flag {
+  background-position: 0 -216px;
+}
+
+/* line 84, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-logo-hau {
+  background-position: 0 -247px;
+}
+
+/* line 84, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-ugrLogo {
+  background-position: 0 -310px;
+}
+
+/* line 84, ../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-ulmLogo {
-  background-position: 0 -120px;
+  background-position: 0 -360px;
 }
 
 /* line 1, ../sass/settings.scss */
@@ -162,7 +288,7 @@ http://svgeneration.com/generate/Dual-Triangles?width=10&color1=222222&color2=26
   text-align: center;
   color: white;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
-  font-size: 60px;
+  font-size: 100px;
 }
 /* line 81, ../sass/intro.scss */
 #mainFrame .header .subtitle {
@@ -179,86 +305,98 @@ http://svgeneration.com/generate/Dual-Triangles?width=10&color1=222222&color2=26
   border-top: 2px solid white;
   margin: auto;
 }
-/* line 96, ../sass/intro.scss */
+/* line 95, ../sass/intro.scss */
 #mainFrame .content-wrap {
   position: relative;
   width: 100%;
   min-height: 100px;
 }
-/* line 101, ../sass/intro.scss */
+/* line 100, ../sass/intro.scss */
 #mainFrame .content-wrap .content {
   width: 80%;
   padding: 0 10%;
 }
-/* line 106, ../sass/intro.scss */
+/* line 105, ../sass/intro.scss */
 #mainFrame .content-wrap img {
   float: left;
   margin: 10px 10px;
 }
-/* line 111, ../sass/intro.scss */
+/* line 110, ../sass/intro.scss */
 #mainFrame .content-wrap .floatingDiv {
   position: relative;
   float: left;
   margin-left: 50px;
 }
-/* line 117, ../sass/intro.scss */
+/* line 116, ../sass/intro.scss */
 #mainFrame .content-wrap .afterFloatingDiv {
   clear: both;
 }
-/* line 120, ../sass/intro.scss */
+/* line 119, ../sass/intro.scss */
 #mainFrame .content-wrap .hau-it-service-logo {
   height: 63px;
   width: 150px;
   display: inline-block;
-  background-position: 0 -285px;
+  background-position: 0 -247px;
 }
-/* line 126, ../sass/intro.scss */
+/* line 125, ../sass/intro.scss */
 #mainFrame .content-wrap .cassidian-logo {
   height: 40px;
   width: 419px;
   display: inline-block;
-  background-position: 0 -245px;
+  background-position: 0 -145px;
 }
-/* line 132, ../sass/intro.scss */
+/* line 131, ../sass/intro.scss */
 #mainFrame .content-wrap .axesor-logo {
   height: 75px;
   width: 146px;
   display: inline-block;
-  background-position: 0 -170px;
+  background-position: 0 0;
 }
 
 @media only screen and (max-width: 400px) {
-  /* line 16, ../sass/media.scss */
+  /* line 15, ../sass/media.scss */
   #mainFrame .header .double-line-top {
     width: 80%;
   }
-  /* line 19, ../sass/media.scss */
+  /* line 18, ../sass/media.scss */
   #mainFrame .header .main-title {
     font-size: 32pt;
   }
-  /* line 22, ../sass/media.scss */
+  /* line 21, ../sass/media.scss */
   #mainFrame .header .double-line-bottom {
     width: 80%;
   }
 }
-/* line 1, ../sass/nav.scss */
+/* line 61, ../sass/nav.scss */
 #nav {
   width: 100%;
   z-index: 99;
   position: absolute;
 }
-/* line 6, ../sass/nav.scss */
+/* line 66, ../sass/nav.scss */
 #nav #menu ul {
   list-style-type: none;
   text-align: center;
 }
-/* line 9, ../sass/nav.scss */
+/* line 69, ../sass/nav.scss */
 #nav #menu ul li {
   height: 30px;
   display: inline-block;
   margin: 13px 30px;
+  /*
+    (TEXT) PARAMS
+    =================
+    1. Namespace
+    2. Intensity
+    3. Text color
+    4. Background color (flat)
+    5. Highlight #1 color
+    6. Highlight #2 color
+    7. Width (px)
+    8. Height (px)
+  */
 }
-/* line 13, ../sass/nav.scss */
+/* line 73, ../sass/nav.scss */
 #nav #menu ul li a {
   text-decoration: none;
   display: inline-block;
@@ -266,4 +404,243 @@ http://svgeneration.com/generate/Dual-Triangles?width=10&color1=222222&color2=26
   cursor: pointer;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
   font-weight: bold;
+}
+/* line 93, ../sass/nav.scss */
+#nav #menu ul li .glitch {
+  font-size: 30px;
+  color: white;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
+}
+/* line 97, ../sass/nav.scss */
+#nav #menu ul li .glitch:hover {
+  background-color: #c6c6c6;
+  border-radius: 4px;
+  cursor: pointer;
+  text-shadow: none;
+  color: #FE9A2E;
+  position: relative;
+}
+@-webkit-keyframes glitch-anim-1 {
+  0% {
+    clip: rect(2px, 700px, 0px, 0);
+  }
+  6.66667% {
+    clip: rect(4px, 700px, 3px, 0);
+  }
+  13.33333% {
+    clip: rect(12px, 700px, 7px, 0);
+  }
+  20% {
+    clip: rect(23px, 700px, 15px, 0);
+  }
+  26.66667% {
+    clip: rect(25px, 700px, 12px, 0);
+  }
+  33.33333% {
+    clip: rect(23px, 700px, 8px, 0);
+  }
+  40% {
+    clip: rect(19px, 700px, 25px, 0);
+  }
+  46.66667% {
+    clip: rect(9px, 700px, 12px, 0);
+  }
+  53.33333% {
+    clip: rect(9px, 700px, 12px, 0);
+  }
+  60% {
+    clip: rect(24px, 700px, 28px, 0);
+  }
+  66.66667% {
+    clip: rect(24px, 700px, 21px, 0);
+  }
+  73.33333% {
+    clip: rect(18px, 700px, 10px, 0);
+  }
+  80% {
+    clip: rect(3px, 700px, 10px, 0);
+  }
+  86.66667% {
+    clip: rect(0px, 700px, 25px, 0);
+  }
+  93.33333% {
+    clip: rect(22px, 700px, 1px, 0);
+  }
+  100% {
+    clip: rect(22px, 700px, 26px, 0);
+  }
+}
+@keyframes glitch-anim-1 {
+  0% {
+    clip: rect(17px, 700px, 13px, 0);
+  }
+  6.66667% {
+    clip: rect(12px, 700px, 23px, 0);
+  }
+  13.33333% {
+    clip: rect(24px, 700px, 13px, 0);
+  }
+  20% {
+    clip: rect(15px, 700px, 27px, 0);
+  }
+  26.66667% {
+    clip: rect(28px, 700px, 1px, 0);
+  }
+  33.33333% {
+    clip: rect(26px, 700px, 5px, 0);
+  }
+  40% {
+    clip: rect(15px, 700px, 15px, 0);
+  }
+  46.66667% {
+    clip: rect(22px, 700px, 5px, 0);
+  }
+  53.33333% {
+    clip: rect(20px, 700px, 24px, 0);
+  }
+  60% {
+    clip: rect(17px, 700px, 23px, 0);
+  }
+  66.66667% {
+    clip: rect(4px, 700px, 29px, 0);
+  }
+  73.33333% {
+    clip: rect(7px, 700px, 28px, 0);
+  }
+  80% {
+    clip: rect(22px, 700px, 12px, 0);
+  }
+  86.66667% {
+    clip: rect(24px, 700px, 2px, 0);
+  }
+  93.33333% {
+    clip: rect(8px, 700px, 24px, 0);
+  }
+  100% {
+    clip: rect(28px, 700px, 12px, 0);
+  }
+}
+@-webkit-keyframes glitch-anim-2 {
+  0% {
+    clip: rect(26px, 700px, 15px, 0);
+  }
+  6.66667% {
+    clip: rect(11px, 700px, 4px, 0);
+  }
+  13.33333% {
+    clip: rect(22px, 700px, 28px, 0);
+  }
+  20% {
+    clip: rect(12px, 700px, 22px, 0);
+  }
+  26.66667% {
+    clip: rect(27px, 700px, 25px, 0);
+  }
+  33.33333% {
+    clip: rect(4px, 700px, 4px, 0);
+  }
+  40% {
+    clip: rect(26px, 700px, 1px, 0);
+  }
+  46.66667% {
+    clip: rect(6px, 700px, 26px, 0);
+  }
+  53.33333% {
+    clip: rect(1px, 700px, 2px, 0);
+  }
+  60% {
+    clip: rect(3px, 700px, 19px, 0);
+  }
+  66.66667% {
+    clip: rect(3px, 700px, 27px, 0);
+  }
+  73.33333% {
+    clip: rect(22px, 700px, 7px, 0);
+  }
+  80% {
+    clip: rect(1px, 700px, 19px, 0);
+  }
+  86.66667% {
+    clip: rect(11px, 700px, 26px, 0);
+  }
+  93.33333% {
+    clip: rect(1px, 700px, 8px, 0);
+  }
+  100% {
+    clip: rect(29px, 700px, 4px, 0);
+  }
+}
+@keyframes glitch-anim-2 {
+  0% {
+    clip: rect(27px, 700px, 16px, 0);
+  }
+  6.66667% {
+    clip: rect(24px, 700px, 4px, 0);
+  }
+  13.33333% {
+    clip: rect(11px, 700px, 8px, 0);
+  }
+  20% {
+    clip: rect(7px, 700px, 13px, 0);
+  }
+  26.66667% {
+    clip: rect(9px, 700px, 21px, 0);
+  }
+  33.33333% {
+    clip: rect(13px, 700px, 3px, 0);
+  }
+  40% {
+    clip: rect(16px, 700px, 18px, 0);
+  }
+  46.66667% {
+    clip: rect(23px, 700px, 28px, 0);
+  }
+  53.33333% {
+    clip: rect(20px, 700px, 25px, 0);
+  }
+  60% {
+    clip: rect(7px, 700px, 25px, 0);
+  }
+  66.66667% {
+    clip: rect(3px, 700px, 0px, 0);
+  }
+  73.33333% {
+    clip: rect(26px, 700px, 26px, 0);
+  }
+  80% {
+    clip: rect(7px, 700px, 6px, 0);
+  }
+  86.66667% {
+    clip: rect(18px, 700px, 29px, 0);
+  }
+  93.33333% {
+    clip: rect(16px, 700px, 15px, 0);
+  }
+  100% {
+    clip: rect(28px, 700px, 5px, 0);
+  }
+}
+/* line 37, ../sass/nav.scss */
+#nav #menu ul li .glitch:hover:before, #nav #menu ul li .glitch:hover:after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #c6c6c6;
+  clip: rect(0, 0, 0, 0);
+}
+/* line 47, ../sass/nav.scss */
+#nav #menu ul li .glitch:hover:after {
+  left: 2px;
+  text-shadow: -1px 0 #c6c6c6;
+  -webkit-animation: glitch-anim-1 2s infinite linear alternate-reverse;
+  animation: glitch-anim-1 2s infinite linear alternate-reverse;
+}
+/* line 53, ../sass/nav.scss */
+#nav #menu ul li .glitch:hover:before {
+  left: -2px;
+  text-shadow: 2px 0 #c6c6c6;
+  -webkit-animation: glitch-anim-2 3s infinite linear alternate-reverse;
+  animation: glitch-anim-2 3s infinite linear alternate-reverse;
 }

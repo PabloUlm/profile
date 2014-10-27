@@ -1,3 +1,63 @@
+@mixin textGlitch($name, $intensity, $textColor, $background, $highlightColor1, $highlightColor2, $width, $height) {
+
+  color: $textColor;
+  position: relative;
+  $steps: $intensity;
+
+  // Ensure the @keyframes are generated at the root level
+  @at-root {
+  // We need two different ones
+    @for $i from 1 through 2 {
+      @-webkit-keyframes #{$name}-anim-#{$i} {
+        @for $i from 0 through $steps {
+          #{percentage($i*(1/$steps))} {
+            clip: rect(
+                random($height)+px,
+                $width+px,
+                random($height)+px,
+                0
+            );
+          }
+        }
+      }
+      @keyframes #{$name}-anim-#{$i} {
+        @for $i from 0 through $steps {
+          #{percentage($i*(1/$steps))} {
+            clip: rect(
+                random($height)+px,
+                $width+px,
+                random($height)+px,
+                0
+            );
+          }
+        }
+      }
+    }
+  }
+  &:before,
+  &:after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: $background;
+    clip: rect(0, 0, 0, 0);
+  }
+  &:after {
+    left: 2px;
+    text-shadow: -1px 0 $highlightColor1;
+    -webkit-animation: #{$name}-anim-1 2s infinite linear alternate-reverse;
+    animation: #{$name}-anim-1 2s infinite linear alternate-reverse;
+  }
+  &:before {
+    left: -2px;
+    text-shadow: 2px 0 $highlightColor2;
+    -webkit-animation: #{$name}-anim-2 3s infinite linear alternate-reverse;
+    animation: #{$name}-anim-2 3s infinite linear alternate-reverse;
+  }
+
+}
 #nav{
   width: 100%;
   z-index: 99;
@@ -18,9 +78,31 @@
           text-shadow: 1px 1px 0px rgba(0, 0, 0, .8);
           font-weight: bold;
         }
+        /*
+          (TEXT) PARAMS
+          =================
+          1. Namespace
+          2. Intensity
+          3. Text color
+          4. Background color (flat)
+          5. Highlight #1 color
+          6. Highlight #2 color
+          7. Width (px)
+          8. Height (px)
+        */
+        .glitch{
+          font-size: 30px;
+          color: white;
+          text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
+          &:hover{
+            background-color: #c6c6c6;
+            border-radius: 4px;
+            cursor: pointer;
+            text-shadow: none;
+            @include textGlitch("glitch", 15, #FE9A2E, #c6c6c6, #c6c6c6, #c6c6c6, 700, 30);
+          }
+        }
       }
     }
   }
 }
-
-

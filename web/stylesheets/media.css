@@ -1,13 +1,13 @@
 @media only screen and (max-width: 400px) {
-  /* line 16, ../sass/media.scss */
+  /* line 15, ../sass/media.scss */
   #mainFrame .header .double-line-top {
     width: 80%;
   }
-  /* line 19, ../sass/media.scss */
+  /* line 18, ../sass/media.scss */
   #mainFrame .header .main-title {
     font-size: 32pt;
   }
-  /* line 22, ../sass/media.scss */
+  /* line 21, ../sass/media.scss */
   #mainFrame .header .double-line-bottom {
     width: 80%;
   }
